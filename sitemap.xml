@@ -3,6 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://simtony.github.io/blog/a-template-post/</loc>
+    <lastmod>2017-08-12T01:03:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/blog/</loc>
+    <lastmod>2017-08-12T01:03:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://simtony.github.io/categories/</loc>
     <priority>0</priority>
   </url>
@@ -14,6 +25,7 @@
   
   <url>
     <loc>https://simtony.github.io/</loc>
+    <lastmod>2017-08-12T01:03:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
