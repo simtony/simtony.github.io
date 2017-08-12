@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Tony</title>
+    <link>https://simtony.github.io/tags/golang/</link>
+    <description>Recent content in Golang on Tony</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 12 Aug 2017 01:03:10 +0800</lastBuildDate>
+    
+	<atom:link href="https://simtony.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A template post</title>
+      <link>https://simtony.github.io/misc/your-new-post/</link>
+      <pubDate>Sat, 12 Aug 2017 01:03:10 +0800</pubDate>
+      
+      <guid>https://simtony.github.io/misc/your-new-post/</guid>
+      <description>This is a sample post.
+asdfasdfasd fasdfasd fasd $ a_1 \textrm{asdf}3_1*+ 1_1 = 1 $asdf asd fs
+asdfasdf asdfsdf asdfasdf seq_target = self.inputs[:, 1:num_steps-1] seq_target = tf.split(1, seq_target.get_shape()[1], seq_target # [batch_size, step-2]  1seq_mask = self.mask[:, 1:num_steps-1]
+$$asdfasdf$$
+adsfasdf sampled_loss_f = None if num_samples &amp;gt; 0 and num_samples &amp;lt; vocab_size: w = tf.get_variable(&amp;ldquo;sampled_softmax_w&amp;rdquo;, shape=[vocab_size, 2*hidden_size]) b = tf.get_variable(&amp;ldquo;sampled_softmax_b&amp;rdquo;, shape=[vocab_size] def sampled_loss(inputs, labels): logits, labels = _compute_sampled_logits( w, b, inputs, labels, num_samples, vocab_size, num_true=1, sampled_values=None, subtract_log_q=True, remove_accidental_hits=True, partition_strategy=&amp;ldquo;mod&amp;rdquo;, name=&amp;ldquo;sampled_softmax_loss&amp;rdquo;) sampled_probs = tf</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -49,14 +49,14 @@ body {
   -moz-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  -webkit-justify-content: flex-start;
-  -moz-justify-content: flex-start;
-  -ms-justify-content: flex-start;
-  justify-content: flex-start;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
   width: 100%;
   min-height: 100%;
   font-weight: 400;
-  font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Arial', "PingFangSC-Regular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   color: #111;
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
@@ -87,6 +87,7 @@ section {
   -ms-align-items: center;
   align-items: center;
   width: 100%;
+
 }
 .container {
   display: -webkit-flex;
@@ -104,7 +105,7 @@ section {
     padding: 0 16px;
     margin-left: 100px;
     margin-right: 100px;
-    max-width: 750px;
+    max-width: 650px;
   }
 }
 section.header {
@@ -114,16 +115,22 @@ section.header {
   order: 0;
 }
 section.icons {
-  -webkit-order: 1;
-  -moz-order: 1;
-  -ms-order: 1;
-  order: 1;
-}
-section.main {
   -webkit-order: 2;
   -moz-order: 2;
   -ms-order: 2;
   order: 2;
+}
+section.footer {
+  -webkit-order: 3;
+  -moz-order: 3;
+  -ms-order: 3;
+  order: 3;
+}
+section.main {
+  -webkit-order: 1;
+  -moz-order: 1;
+  -ms-order: 1;
+  order: 1;
 }
 @media (min-width: 600px) {
   section.header {
@@ -145,8 +152,10 @@ section.main {
     order: 1;
   }
 }
+
 section.header {
   background-color: #f7f7f7;
+  background-color: transparent;
 }
 section.header .container {
   -webkit-align-items: center;
@@ -180,7 +189,7 @@ section.header .avatar {
 }
 section.header .name {
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', 'Arial',  "PingFangSC-Regular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
@@ -192,7 +201,7 @@ section.header .name {
 }
 section.header h3.self-intro {
   font-size: 1em;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', 'Arial',  "PingFangSC-Regular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
@@ -207,7 +216,7 @@ section.header nav {
   font-size: 14px;
   margin-bottom: 16px;
   text-transform: uppercase;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', 'Arial',  "PingFangSC-Regular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 }
 section.header nav ul {
   list-style: none;
@@ -248,6 +257,7 @@ section.header nav ul a:hover {
     -moz-justify-content: flex-start;
     -ms-justify-content: flex-start;
     justify-content: flex-start;
+
   }
   section.header .content {
     -webkit-align-items: flex-start;
@@ -273,7 +283,8 @@ section.header nav ul a:hover {
   }
 }
 section.icons {
-  background-color: #f7f7f7;
+  background-color: transparent;
+
 }
 section.icons .container {
   -webkit-align-items: center;
@@ -286,33 +297,36 @@ section.icons .container {
   justify-content: center;
 }
 section.icons .content {
-  width: auto;
+  width: 100%;
+
 }
+
 section.icons .content a {
-  margin-left: 6px;
-  margin-right: 6px;
-  opacity: 0.6;
   -webkit-transition: opacity 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: opacity 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: opacity 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -o-transition: opacity 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
-section.icons .content a:first-child {
-  margin-left: 0;
+section.icons .content img {
+  opacity: 0.5;
 }
-section.icons .content a:last-child {
-  margin-right: 0;
+section.icons .content img:hover {
+  opacity: 1.0;
 }
-section.icons .content a:hover {
-  opacity: 0.8;
-}
-section.icons .content a .icon {
+section.icons .content img {
+  margin-right: 6px;
   width: 16px;
   height: 16px;
-}
-section.icons .content a .flag {
   border-radius: 50%;
 }
+
+section.icons .content footer {
+  opacity: 0.5;
+  font-size: 0.8em
+}
+
+
+
 @media (min-width: 600px) {
   section.icons {
     background-color: transparent;
@@ -356,7 +370,7 @@ section.main .content .title-container {
 section.main .content .title-container .initials {
   display: none;
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', 'Arial',  "PingFangSC-Regular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
@@ -378,7 +392,7 @@ section.main .content .title-container .initials a:hover {
 }
 section.main .content .page-heading {
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', 'Arial',  "PingFangSC-Regular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
@@ -448,11 +462,11 @@ section.main .container.f04 .content {
 section.main .container.f04 .content .num {
   margin: 30px 0px 30px 0;
   font-weight: 200;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', 'Arial',  "PingFangSC-Regular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   font-size: 50px;
 }
 section.main .container.f04 .content .detail {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 @media (min-width: 600px) {
   section.main .container.f04 {
@@ -503,7 +517,7 @@ section.main .container .content .no-bullet {
 }
 section.main .container .content .no-bullet .date {
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', 'Arial',  "PingFangSC-Regular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
@@ -552,8 +566,8 @@ section.main {
     display: block;
   }
   section.main.post {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 a {
@@ -588,7 +602,7 @@ section.main .content .markdown h4,
 section.main .content .markdown h5,
 section.main .content .markdown h6 {
   font-size: 18px;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', 'Arial',  "PingFangSC-Regular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   letter-spacing: -0.005rem;
   font-weight: 700;
   -moz-osx-font-smoothing: grayscale;
@@ -619,7 +633,7 @@ section.main .content .markdown h6 {
 }
 section.main .content .markdown code,
 section.main .content .markdown pre {
-  font-family: 'Ubuntu Mono', 'Menlo', monospace;
+  font-family: 'Ubuntu Mono', 'Menlo', monospace, "PingFangSC-Regular", "Hiragino Sans GB", "Microsoft YaHei";
   font-size: 1rem;
   background-color: #f7f7f7;
 }
@@ -733,3 +747,5 @@ section.main .content .markdown tbody tr:nth-child(odd) td,
 section.main .content .markdown tbody tr:nth-child(odd) th {
   background-color: #f7f7f7;
 }
+
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tony</title>
+    <link>https://simtony.github.io/reading/</link>
+    <description>Recent content on Tony</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 12 Aug 2017 01:49:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://simtony.github.io/reading/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于这个博客</title>
+      <link>https://simtony.github.io/reading/about/</link>
+      <pubDate>Sat, 12 Aug 2017 01:49:23 +0800</pubDate>
+      
+      <guid>https://simtony.github.io/reading/about/</guid>
+      <description>我是 Tony，今年刚从南方科技大学毕业，现在是追一科技的算法工程师。
+写作能够帮助我们理清想法。除此之外，如果不及时记录并时时反思，碰壁得到的教训、阅读悟得的体会等都会随记忆消逝。写这个博客一来是为了记录，二来是为了分享，三来则是为了驱动自己进行深入的思考。
+个人博客是一个可以自由写作的地方。我可以不用担心知乎、微信等平台神经衰弱式的审查，文字展现的样式、页面的配色等也尽在自己的掌握中。
+见过太多无病呻吟的博客，也深感复制黏贴式的博文不值一瞥。无意往互联网这个碎片的海洋再扔些文字垃圾，我会尽量让我的每篇博文都言之有物，至少拥有思考沉淀下来的厚度。为达到这个目的，文章多次修改应该是常态。
+视文章主题不同，我也许会用英文写作 &amp;ndash; 这些往往是比较学术向的讨论。</description>
+    </item>
+    
+  </channel>
+</rss>

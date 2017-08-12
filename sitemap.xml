@@ -3,14 +3,76 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://simtony.github.io/blog/a-template-post/</loc>
+    <loc>https://simtony.github.io/misc/test.2/</loc>
+    <lastmod>2017-08-13T01:03:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/misc/test.3/</loc>
+    <lastmod>2017-08-13T01:03:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/misc/test.4/</loc>
+    <lastmod>2017-08-13T01:03:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/misc/test.5/</loc>
+    <lastmod>2017-08-13T01:03:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/misc/test/</loc>
+    <lastmod>2017-08-13T01:03:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/misc/test.1/</loc>
+    <lastmod>2017-08-13T01:03:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/about.en/</loc>
+    <lastmod>2017-08-12T01:49:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/about/</loc>
+    <lastmod>2017-08-12T01:49:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/reading/about/</loc>
+    <lastmod>2017-08-12T01:49:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/misc/your-new-post/</loc>
     <lastmod>2017-08-12T01:03:10+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://simtony.github.io/blog/</loc>
-    <lastmod>2017-08-12T01:03:10+08:00</lastmod>
-    <priority>0</priority>
+    <loc>https://simtony.github.io/</loc>
+    <lastmod>2017-08-13T01:03:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/misc/</loc>
+    <lastmod>2017-08-13T01:03:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/reading/</loc>
+    <lastmod>2017-08-12T01:49:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/research/</loc>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/tech/</loc>
   </url>
   
   <url>
@@ -19,12 +81,25 @@
   </url>
   
   <url>
-    <loc>https://simtony.github.io/tags/</loc>
+    <loc>https://simtony.github.io/tags/golang/</loc>
+    <lastmod>2017-08-12T01:03:10+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://simtony.github.io/</loc>
+    <loc>https://simtony.github.io/tags/hugo/</loc>
+    <lastmod>2017-08-12T01:03:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/tags/</loc>
+    <lastmod>2017-08-12T01:03:10+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://simtony.github.io/categories/web-development/</loc>
     <lastmod>2017-08-12T01:03:10+08:00</lastmod>
     <priority>0</priority>
   </url>
